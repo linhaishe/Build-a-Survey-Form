@@ -13,14 +13,61 @@
         <p>Let us know how we can improve freeCodeCamp</p>
         <from method="post">
             <label for="name">* Name: </label>
-            <input type="text" name="name"/>
+            <input type="text" name="name" placeholder="Enter your name" />
             <br/>
             <label for="email">* Email: </label>
-            <input type="text" name="email" />
+            <input type="text" name="email" placeholder="Enter your Email" />
             <br/>
             <label for="age">* Age: </label>
-            <input type="text" name="age">
+            <input type="text" name="age" placeholder="Age" />
         </from>
+        <form>
+            <p>Which option best describes your current role?</p>
+            <select name="role">
+                <option value="student">Student</option>
+                <option value="fulltimejob">Full time job</option>
+                <option value="fulltimelearner">Full time learner</option>
+                <option value="prefernottosay">Prefer not to say</option>
+                <option value="other">other</option>
+            </select>
+        </form>
+        <form>
+            <p>* How likely is that you would recommend freeCodeCamp to a friend?
+            <br/>
+            <input type="radio" name="recommend" value="definitely" />Definitely
+            <input type="radio" name="recommend" value="maybe" />Maybe
+            <input type="radio" name="recommend" value="notsure" />Not sure
+             </p>
+        </form>
+        <form>
+            <p>What do you like most in FCC:</p>
+            <select>
+                <option value="selectanoption" selected >select an option</option>
+                <option value="challenges" >challenges</option>
+                <option value="projects">projects</option>
+                <option value="community">community</option>
+                <option value="source">open source</option>
+            </select>
+        </form>
+        <form>
+            <p>Things that should be improved in the future(Check all that apply:</p>
+            <input type="checkbox" value="111" />Front-end Projects
+            <input type="checkbox" value="" />Back-end Projects
+            <input type="checkbox" value="" />Data Visualization
+            <input type="checkbox" value="" />Challenges
+            <input type="checkbox" value="" />Open Source Community
+            <input type="checkbox" value="" />Gitter help rooms
+            <input type="checkbox" value="" />Videos
+            <input type="checkbox" value="" />city meetups
+            <input type="checkbox" value="" />wiki
+            <input type="checkbox" value="" />forum
+            <input type="checkbox" value="" />addtional courses
+        </form>
+        <form>
+            <p>Any Comments or Suggestions?</p>
+            <textarea name="comment" cols="30" rows="3">Enter your comment here...</textarea>
+        </form>
+        <input type="submit" value="Submit"/>
     </div>
 </body>
 </html>
